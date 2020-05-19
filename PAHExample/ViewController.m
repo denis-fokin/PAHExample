@@ -24,4 +24,9 @@
 }
 
 
+
+-(void)keyDown:(NSEvent *)event {
+    NSLog(@"Key pressed");
+}
+
 @end

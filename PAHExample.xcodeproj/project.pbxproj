@@ -13,6 +13,7 @@
 		92071D8A247416D2002B0165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92071D89247416D2002B0165 /* Assets.xcassets */; };
 		92071D8D247416D2002B0165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92071D8B247416D2002B0165 /* Main.storyboard */; };
 		92071D90247416D2002B0165 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92071D8F247416D2002B0165 /* main.m */; };
+		92071D9924741790002B0165 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92071D9824741790002B0165 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		92071D8E247416D2002B0165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92071D8F247416D2002B0165 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92071D91247416D2002B0165 /* PAHExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PAHExample.entitlements; sourceTree = "<group>"; };
+		92071D9724741790002B0165 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		92071D9824741790002B0165 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				92071D8F247416D2002B0165 /* main.m */,
 				92071D91247416D2002B0165 /* PAHExample.entitlements */,
 				92071D86247416D1002B0165 /* PAHExample.xcdatamodeld */,
+				92071D9724741790002B0165 /* MyView.h */,
+				92071D9824741790002B0165 /* MyView.m */,
 			);
 			path = PAHExample;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 				92071D88247416D1002B0165 /* PAHExample.xcdatamodeld in Sources */,
 				92071D90247416D2002B0165 /* main.m in Sources */,
 				92071D82247416D1002B0165 /* AppDelegate.m in Sources */,
+				92071D9924741790002B0165 /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
